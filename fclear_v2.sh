@@ -32,4 +32,4 @@ if [ ${myDir} == "/" ] || [ ${myDir} == "$HOME" ] ; then
 
     fi
 
-echo "files whre deleted!"
+echo "files wehre deleted!"
