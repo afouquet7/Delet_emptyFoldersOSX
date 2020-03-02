@@ -27,7 +27,7 @@ if [ ${myDir} == "/" ] || [ ${myDir} == "$HOME" ] ; then
   else
 
     echo "Bam!!!"
-      find . -type f ".*" -delete
+      find . -iname ".*" -type f -delete
       find . -empty -type d -delete
 
     fi
